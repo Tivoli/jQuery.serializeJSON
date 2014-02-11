@@ -1,0 +1,36 @@
+{
+  "name": "jQuery-serializeJSON",
+  "description": "jQuery plugin to convert a form to JSON",
+  "version": "0.0.1",
+  "author": "Jonathan 'Tivs' Rainey <tivoli@nurfed.com>",
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/Tivoli/jQuery.serializeJSON.git"
+  },
+  "bugs": "https://github.com/Tivoli/jQuery.serializeJSON/issues",
+  "contributors": "https://github.com/Tivoli/jQuery.serializeJSON/graphs/contributors",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "main": "./jQuery.serializeJSON.js",
+  "config": {
+    "blanket": {
+      "pattern": "//^((?!(node_modules|test)).)*$/",
+      "loader": "./node-loaders/coffee-script",
+      "data-cover-never": "node_modules"
+    }
+  },
+  "devDependencies": {
+    "coffee-script":  "latest",
+    "coffeelint":     "latest",
+    "mocha":          "latest",
+    "chai":           "latest",
+    "jsdom":          "latest",
+    "blanket":        "latest",
+    "jquery":         "latest",
+    "gulp":           "latest",
+    "gulp-util":      "latest",
+    "gulp-clean":     "latest",
+    "gulp-coffee":    "latest"
+  }
+}
