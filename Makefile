@@ -31,6 +31,7 @@ tag:
 	git push --tags origin master
 
 clean:
-	rm -f coverage.html
+	@rm -f coverage.html
+	@gulp --require coffee-script/register
 
-.PHONY: test test-lint test-cov test-all tag clean
+.PHONY: test test-lint test-cov test-all tag

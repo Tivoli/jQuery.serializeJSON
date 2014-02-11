@@ -2,7 +2,36 @@
 <html>
   <body>
     <form action='/upload' method='post'>
-      <input type='text' name='user' value='Zombie Pirate'>
+      <input type='tel' name='phone' value='555.111.2222'>
+      <input type='url' name='website' value='http://www.example.com'>
+      <input type='text' name='user[name]' value='Zombie Pirate'>
+      <input type='text' name='user[username]' value='zombie'>
+      <input type='email' name='user[email]' value='zombie@example.com'>
+      <input type='text' name='address[street][num]' value='123'>
+      <input type='text' name='address[street][name]' value='Post St.'>
+      <input type='text' name='address[state]' value='NY'>
+      <select name='address[city]'>
+        <option value=''>Select City</option>
+        <option value='San Francisco'>San Francisco</option>
+        <option value='New York' selected>New York</option>
+        <option value='Boston'>Boston</option>
+        <option value='Richmond'>Richmond</option>
+      </select>
+      <input type='text' name='address[zip]' value='12345'>
+      <select name='15b' multiple>
+        <option value='adam'>Adam</option>
+        <option value='tivs' selected>Tivs</option>
+        <option value='deek'>Deek</option>
+        <option value='ctide' selected>Ctide</option>
+        <option value='billionaire' selected>Billionaire</option>
+      </select>
+      <textarea name='about[plugin]'>Converts form to JSON</textarea>
+      <input type="checkbox" name='is_user' checked>
+      <input type="checkbox" name='is_admin'>
+      <input type="checkbox" name='has_car' value='audi' checked>
+      <input type="radio" name='shoe[type]' value='slipper'>
+      <input type="radio" name='shoe[type]' value='sneaker' checked>
+      <input type="radio" name='shoe[type]' value='boot'>
     </form>
   </body>
 </html>

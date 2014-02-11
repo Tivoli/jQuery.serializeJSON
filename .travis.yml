@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - '0.10'
+after_success:
+  - "make test-cov && ./.update-gh-pages.sh"
+env:
+  global:
+    secure: Rrhb38fN0619kZHxJlBjxcu5XYZQIIh02y7gyzl/vkjIzOLHQNJXG+MlUWGsijDSDALMMoin81cZe4i0j/bNxk5tcBCt/a3UCKzr69tcyYyjK7vKv3v4lsLg1QoPXv88ugFO95H3jsk2hwEe9xbDLCcNqXIA/J9JtykU12zUjwQ=

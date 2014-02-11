@@ -31,6 +31,8 @@
     "gulp":           "latest",
     "gulp-util":      "latest",
     "gulp-clean":     "latest",
-    "gulp-coffee":    "latest"
+    "gulp-coffee":    "latest",
+    "gulp-uglify":    "latest",
+    "gulp-rename":    "latest"
   }
 }
