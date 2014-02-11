@@ -1,7 +1,7 @@
 {
   "name": "jQuery-serializeJSON",
   "description": "jQuery plugin to convert a form to JSON",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Jonathan 'Tivs' Rainey <tivoli@nurfed.com>",
   "repository": {
     "type": "git",
