@@ -6,7 +6,7 @@ html    = fs.readFileSync("#{__dirname}/index.html", 'utf-8')
 global.document  = jsdom(html)
 global.window    = document.parentWindow
 global.jQuery    = $ = require('jquery')
-require('../jquery.serializeJSON.js')
+require('../dist/jquery.serializeJSON.js')
 
 data =
   phone: '555.111.2222'
